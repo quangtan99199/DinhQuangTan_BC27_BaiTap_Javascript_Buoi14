@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bài tập 4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 mx-auto">
+          <!-- bs5-card-head-foot -->
+          <div class="card">
+            <div class="card-header">Bài 4: Xác định tam giác.</div>
+            <div class="card-body">
+              <div class="mb-3">
+                <label for="bt4-firstNumber" class="form-label">Nhập chiều dài cạnh thứ nhất</label>
+                <input type="text" name="" id="bt4-firstNumber" class="form-control" />
+              </div>
+
+              <div class="mb-3">
+                <label for="bt4-secondNumber" class="form-label">Nhập chiều dài cạnh thứ hai</label>
+                <input type="text" name="" id="bt4-secondNumber" class="form-control" />
+              </div>
+
+              <div class="mb-3">
+                <label for="bt4-thirdNumber" class="form-label">Nhập chiều dài cạnh thứ ba</label>
+                <input type="text" name="" id="bt4-thirdNumber" class="form-control" />
+              </div>
+
+              <div class="text-center">
+                <button class="btn btn-success" onclick="Bt4()">Xác định nào!!</button>
+              </div>
+
+              <div id="ketQua" style="display: none">
+                <p>Kết quả là</p>
+                <p id="bt4-result"></p>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Bai4.js"></script>
+  </body>
+</html>
